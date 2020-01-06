@@ -100,6 +100,6 @@ ip = r.text                                 #.. И заносим его в пе
 
 smtpObj = smtplib.SMTP('smtp.gmail.com', 587)
 smtpObj.starttls()
-smtpObj.login('gun19021902@gmail.com','19022002python')
-smtpObj.sendmail('gun19021902@gmail.com','gun19021902@gmail.com', str(ip))
+smtpObj.login('Your_gmail_adress','Your_password')
+smtpObj.sendmail('address_from','address_to', str(ip))
 smtpObj.quit()
