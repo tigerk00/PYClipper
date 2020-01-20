@@ -3,7 +3,6 @@ import time
 import threading
 import os
 import sys
-import telebot
 import shutil
 import requests
 import smtplib                  # Импортируем библиотеку по работе с SMTP
